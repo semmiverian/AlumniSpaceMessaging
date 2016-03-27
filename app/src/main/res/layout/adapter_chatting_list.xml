@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp">
+
+    <id.semmi.alumnispacemessaging.Font.RobotoTextView
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingRight="25dp"
+        android:id="@+id/MessageContent"
+        app:typeface="robotoRegular"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+
+    <id.semmi.alumnispacemessaging.Font.RobotoTextView
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|right"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/MessageContentFrom"
+        app:typeface="robotoRegular"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>

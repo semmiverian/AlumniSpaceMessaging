@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlumniSpaceMessaging</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Log in</string>
+    <string name="allUser">All User</string>
+    <string name="title_activity_chatting">ChattingActivity</string>
+</resources>

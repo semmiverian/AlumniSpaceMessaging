@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#fdfdfd">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transcriptMode="alwaysScroll"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <id.semmi.alumnispacemessaging.Font.RobotoEditText
+            app:typeface="robotoLight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/messageInput"
+            android:hint="Type a message"
+            android:layout_toLeftOf="@+id/sendMessage"
+            android:imeOptions="actionSend"
+            android:layout_weight="1.01"
+            android:textSize="16dp" />
+
+        <id.semmi.alumnispacemessaging.Font.RobotoTextButton
+            app:typeface="robotoRegular"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sendMessage"
+            android:text="Send"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
